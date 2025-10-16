@@ -1,0 +1,20 @@
+# Git LFS (Large File Storage) - if you want to track large files
+# Uncomment these lines if you want to use Git LFS for large files
+# *.csv filter=lfs diff=lfs merge=lfs -text
+# *.pkl filter=lfs diff=lfs merge=lfs -text
+# *.pickle filter=lfs diff=lfs merge=lfs -text
+
+# Text files
+*.py text
+*.md text
+*.txt text
+*.json text
+*.toml text
+
+# Binary files
+*.pkl binary
+*.pickle binary
+*.csv binary
+*.png binary
+*.jpg binary
+*.pdf binary
